@@ -23,6 +23,5 @@ int main() {
 		b=b-a;
 		}
 	}printf("ucln cua a va b la: %d",a);
-	return a;
 }
 	
