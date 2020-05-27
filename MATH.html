@@ -1,0 +1,433 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TIEN</title>
+    <!-- Import Boostrap css, js, font awesome here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <!-- LOGO -->
+        <a class="navbar-branch" href="#">
+            <img src="ANH/Trial-Logo-3.png" height="50"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <!-- Navbar Collapse -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <form action="#" id="searchcollapsed" class="form-inline mt-4 mb-2 d-sm-none">
+                <div class="input-label-absolute input-label-absolute-left input-reset w-100">
+                    <label for="searchcollapsed_search" class="label-absolute"><i class="fa fa-search"></i><span class="sr-only">What are you looking for?</span></label>
+                    <input id="searchcollapsed_search" placeholder="Search" aria-label="Search" class="form-control form-control-sm border-0 shadow-0 bg-gray-200">
+                    <button type="reset" class="btn btn-reset btn-sm"><i class="fa-times fas"></i></button>
+                </div>
+            </form>
+            <ul class="navbar-nav ml-auto">
+
+
+                <li class="nav-item"><a href="contact.html" class="nav-link">TRANG CHỦ</a>
+
+                <li class="nav-item"><a href="contact.html" class="nav-link">TRAO ĐỔI </a>
+
+                <li class="nav-item dropdown">
+                    <a id="homeDropdownMenuLink" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle active">GIỚI THIỆU </a>
+                    <div aria-labelledby="homeDropdownMenuLink" class="dropdown-menu">
+                        <a href="index.html" class="dropdown-item">Giáo viên </a>
+                        <a href="index-2.html" class="dropdown-item">Giảng viên</a>
+                        <a href="index-3.html" class="dropdown-item">Môn học </a>
+                </li>
+
+
+                <!-- Megamenu-->
+                <li class="nav-item dropdown position-static"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">KHÓA HỌC</a>
+                    <div class="dropdown-menu megamenu py-lg-0">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="row p-3 pr-lg-0 pl-lg-5 pt-lg-5">
+
+
+                                    <div class="col-lg-3">
+                                        <!-- Megamenu list-->
+                                        <h6 class="text-uppercase">ĐẠI HỌC-CAO ĐẲNG </h6>
+                                        <ul class="megamenu-list list-unstyled">
+                                            <li class="megamenu-list-item"><a href="index.html" class="megamenu-list-link">Toán cao cấp: Giải tích 1 </a></li>
+                                            <li class="megamenu-list-item"><a href="index-2.html" class="megamenu-list-link">Toán cao cấp: Giải tích 2</a></li>
+                                            <li class="megamenu-list-item"><a href="index-3.html" class="megamenu-list-link">Toán cao cấp: Đại số tuyến tính  </a></li>
+                                            <li class="megamenu-list-item"><a href="index-4.html" class="megamenu-list-link">Toán cao cấp: Xác suất-Thống kê </a></li>
+                                        </ul>
+                                    </div>
+
+
+                                    <div class="col-lg-3">
+                                        <!-- Megamenu list-->
+                                        <h6 class="text-uppercase">LUYỆN THI THPT QUỐC GIA </h6>
+                                        <ul class="megamenu-list list-unstyled">
+                                            <li class="megamenu-list-item"><a href="category-rooms.html" class="megamenu-list-link">Ôn luyện từ 6-7 điểm </a></li>
+                                            <li class="megamenu-list-item"><a href="category-2-rooms.html" class="megamenu-list-link">Ôn luyện từ 8-10 điểm</a></li>
+                                        </ul>
+                                        <!-- Megamenu list-->
+                                        <h6 class="text-uppercase">TOÁN 12</h6>
+                                        <ul class="megamenu-list list-unstyled">
+                                            <li class="megamenu-list-item"><a href="blog.html" class="megamenu-list-link">Giải tích</a></li>
+                                            <li class="megamenu-list-item"><a href="post.html" class="megamenu-list-link">Hình học  </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <!-- Megamenu list-->
+                                        <h6 class="text-uppercase">TOÁN 11</h6>
+                                        <ul class="megamenu-list list-unstyled">
+                                            <li class="megamenu-list-item"><a href="compare.html" class="megamenu-list-link">Đại số 11</a></li>
+                                            <li class="megamenu-list-item"><a href="team.html" class="megamenu-list-link">Hình học 11</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <!-- Megamenu list-->
+                                        <h6 class="text-uppercase">TOÁN 10</h6>
+                                        <ul class="megamenu-list list-unstyled">
+                                            <li class="megamenu-list-item"><a href="login.html" class="megamenu-list-link">Đại số 10 </a></li>
+                                            <li class="megamenu-list-item"><a href="login.html" class="megamenu-list-link">Hình học 10</a></li>
+                                        </ul>
+                                     </div>
+                                </div>
+                                <div class="row megamenu-services d-none d-lg-flex pl-lg-5">
+                                    <div class="col-xl-3 col-lg-6 d-flex">
+                                        <div class="megamenu-services-item">
+                                            <div>
+                                                <h6 class="text-uppercase">GIÁO VIÊN :</h6>
+                                                <p class="mb-0 text-muted text-sm">Nguyễn Ngọc Tiến </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-6 d-flex">
+                                        <div class="megamenu-services-item">
+                                            <div>
+                                                <h6 class="text-uppercase">GIÁO VIÊN :</h6>
+                                                <p class="mb-0 text-muted text-sm">Nguyễn Ngọc Tiến</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-6 d-flex">
+                                        <div class="megamenu-services-item">
+                                            <div>
+                                                <h6 class="text-uppercase">GIÁO VIÊN :</h6>
+                                                <p class="mb-0 text-muted text-sm">Nguyễn Ngọc Tiến</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-lg-6 d-flex">
+                                        <div class="megamenu-services-item">
+                                            <div>
+                                                <h6 class="text-uppercase">GIÁO VIÊN :</h6>
+                                                <p class="mb-0 text-muted text-sm">Nguyễn Ngọc Tiến</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- /Megamenu end-->
+                <li class="nav-item"><a href="contact.html" class="nav-link">TRAO ĐỔI </a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">HỖ TRỢ </a>
+                </li>
+                <li class="nav-item dropdown"><a id="docsDropdownMenuLink" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle ">
+
+                    THÔNG TIN TUYỂN SINH </a>
+                    <div aria-labelledby="docsDropdownMenuLink" class="dropdown-menu dropdown-menu-right">
+                        <h6 style="color:purple;background-color: white" class="dropdown-header font-weight-normal">ĐẠI HỌC, CAO ĐẲNG</h6>
+                        <a href="docs/docs-introduction.html" class="dropdown-item">Điểm chuẩn các năm </a>
+                        <a href="docs/docs-directory-structure.html" class="dropdown-item">Đề thi đại học các năm </a>
+                        <a href="docs/docs-gulp.html" class="dropdown-item">Thông tin các trường đại học </a>
+                        <a href="docs/docs-credits.html" class="dropdown-item">Thi tốt nghiệp </a>
+                        <div class="dropdown-divider"></div>
+                        <h6 style="color:purple;background-color: white" class="dropdown-header font-weight-normal">TUYỂN SINH LỚP 10</h6>
+                        <a href="docs/components-bootstrap.html" class="dropdown-item">Đề thi các năm</a>
+                        <a href="docs/components-directory.html" class="dropdown-item">Môn thi </a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="login.html" class="nav-link"><u>ĐĂNG NHẬP</u> </a></li>
+                <li class="nav-item mt-3 mt-lg-0 ml-lg-3 d-lg-none d-xl-inline-block"><a href="user-add-0ân.html" class="btn btn-primary"><u>ĐĂNG XUẤT </u> </a></a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- Carousel -->
+<div class="container">
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="ANH/purple.png" height="400" width="100"/>
+            <div class="carousel-caption">
+                <button style="margin-top:41px;margin-left: 733px"  type="button" class="btn btn-primary btn-lg">
+                    ĐĂNG KÍ NGAY
+                </button>
+
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="ANH/asdss.png" height="400" width="100"/>
+            <div class="carousel-caption">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="ANH/asdss.png" height="400" width="100"/>
+        </div>
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+<!-- jumbotron -->
+
+<div class="container-fluid">
+    <div class="jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Tìm kiếm khóa học, tài liệu.....">
+                <span class="mdi mdi-magnify"></span>
+                <div class="input-group-append">
+                <button class="btn btn-primary" type="submit">
+                    <i class="fas fa-search fa-sm"></i>
+                </button>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 style="color: purple" class="display-4">WEBSITE HỌC TOÁN ONLINE </h1>
+        </div>
+
+
+
+
+
+        <!-- Horizontal Rule -->
+        <hr>
+        <div class="col-12">
+            <p style="color: purple;font-size: 25px"><b>Hướng dẫn cách học trực tuyến</b> </p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+
+            <img src="ANH/1.png" height="175" width="207"/>
+            <h3> CHỌN KHÓA HỌC</h3>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+
+            <img src="ANH/2.png" height="175" width="220"/>
+            <h3>HỌC THỬ</h3>
+        </div>
+        <div class="col-sm-12 col-md-3">
+
+            <img src="ANH/3.png" height="175" width="207"/>
+            <h3>MUA KHÓA HỌC </h3>
+            <p></p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3 ">
+
+            <img src="ANH/4.png" height="175" width="207"/>
+            <h3> VÀO HỌC </h3>
+        </div>
+    </div>
+
+
+    <hr class="my-4">
+</div>
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-12 col-lg-6">
+            <h2><i class="fa fa-bookmark" aria-hidden="true"></i>
+                Chào mừng các em học sinh đến với khóa học toán online</h2>
+            <p>Ngày nay việc học online là hết sức phổ biến đối với học sinh chúng ta. Vì thế với những thầy cô giáo đầy nhiệt huyết, năng động ở đây, các em có thể hoàn toàn đặt niềm tin, thoải mái đăng kí, lựa chọn khóa học mà mình cần </p>
+            <p>Chúc các em có những trải nghiệm học tập tuyệt vời khi đăng kí khóa học của mình !</p>
+            <br>
+        </div>
+        <div class="col-lg-6">
+
+            <img src="ANH/Trial-Logo-3.png" height="100" width="100"/></div>
+    </div>
+</div>
+<hr class="my-2">
+
+
+<button class="fun" data-toggle="collapse" data-target="#emoji">
+    Combo khóa học
+</button>
+<div id="emoji" class="collapse">
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-sm-6 col-md-3">
+                <img class="gif" src="./images/gif/blinkEyes.gif" width="100" height="100">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img class="gif" src="./images/gif/blinkGirl.gif" width="100" height="100">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img class="gif" src="./images/gif/faceHaha.gif" width="100" height="100">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img class="gif" src="./images/gif/haha.gif" width="100" height="100">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Meet our team members</h1>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="./images/nguyenduchoang.png">
+                <div class="card-body">
+                    <h4 class="card-title">Nguyen Duc Hoang</h4>
+                    <p class="card-text">Nguyen Duc Hoang is a fullstack developer with 12 years of experiences</p>
+                    <a href="#" class="btn btn-outline-secondary">See profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="./images/johndoe.png">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <u>Giáo viên</u>: Nguyễn Ngọc Tiến
+                    </h4>
+                    <p class="card-text">Khóa học toán online các lớp 10,11,12 từ cơ bản đến vận dụng-vận dụng cao </p>
+                    <p class="card-text">Ôn thi THPT quốc gia </p>
+                    <p class="card-text">Học phí: 600.000/ 1 khóa </p>
+                    <a href="#" class="btn btn-outline-secondary">Chi tiết <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="./images/Natasha.png">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        Natasha
+                    </h4>
+                    <p class="card-text">Natasha is a web designer, she has 5 years of experiences in UI/UX</p>
+                    <a href="#" class="btn btn-outline-secondary">See profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-12 col-lg-6">
+            <h2>Cam kết </h2>
+            <p>Trang bị  đầy đủ kĩ năng giải các dạng bài tập sau khi hoàn thành khóa học </p>
+            <p>Là nơi gửi gắm niềm tin của phụ huynh và các em học sinh</p>
+            <br>
+        </div>
+        <div class="col-lg-6">
+            <img src="./images/mission.jpg" class="img-fluid">
+        </div>
+    </div>
+    <hr class="my-4">
+</div>
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Tương tác với chúng tôi</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="./images/logo.png">
+                <hr class="light">
+                <p>111-222-3333</p>
+                <p>mymail@gmail.com</p>
+                <p>Bach Mai street, Hanoi, Vietnam</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Working hours</h5>
+                <hr class="light">
+                <p>Monday-Friday: 8am - 5pm</p>
+                <p>Weekend: 8am - 12am</p>
+            </div>
+            <div class="col-md-4">
+                <hr class="light">
+                <h5>Services</h5>
+                <hr class="light">
+                <p>Outsourcing</p>
+                <p>Website development</p>
+                <p>Mobile applications</p>
+            </div>
+            <div class="col-12">
+                <hr class="light-100">
+                <h5>&copy; WebPro</h5>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
